@@ -20,3 +20,4 @@ Route::get('/', function () {
 });
 
 Route::get('/warga',[WargaController::class,'index']);
+Route::get('/warga/create',[WargaController::class,'create']);

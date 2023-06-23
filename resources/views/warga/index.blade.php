@@ -1,3 +1,4 @@
+<a href="/warga/create">add Warga</a>
 <table border="1">
     <tr>
         <th>ID</th>
