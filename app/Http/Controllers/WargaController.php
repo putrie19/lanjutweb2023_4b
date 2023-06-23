@@ -2,11 +2,13 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Warga;
 use Illuminate\Http\Request;
 
 class WargaController extends Controller
 {
     public function index(){
-        return 'text';
+       $warga = Warga::all();
+       return view('warga.index',compact(['warga']));
     }
 }
