@@ -9,4 +9,6 @@ class Warga extends Model
 {
     use HasFactory;
     protected $table = 'warga';
+    //protected $fillable = ['nama', 'nik'];
+    protected $guarded = [];
 }

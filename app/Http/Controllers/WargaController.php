@@ -16,4 +16,9 @@ class WargaController extends Controller
         return view('warga.create');
 
     }
+    public function store(Request $request)
+    {
+       // dd($request->except(['_token','submit']));
+        Warga::create($request->except(['_token','submit']));
+    }
 }
