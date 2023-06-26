@@ -36,7 +36,7 @@ class WargaController extends Controller
     public function destroy($id)
     {
         $warga = Warga::find($id);
-       $warga->delete();
-       return redirect('/warga');
+        $warga->delete();
+        return redirect('/warga');
     }
 }
