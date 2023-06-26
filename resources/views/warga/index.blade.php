@@ -36,9 +36,9 @@
                      </div>
                     <div class="container">
                         <from action="/warga/{{$w->id}}" method="POST">
-                            @csrf
-                            @method('delete')
-                            <input class="btn btn-danger" type="submit" value="Delete">
+                        @csrf
+                        @method('delete')
+                     <input class="btn btn-danger" type="submit" value="Delete">
                         </from>
                     </div>
                 </div>
