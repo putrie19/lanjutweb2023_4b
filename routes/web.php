@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use  App\Http\Controllers\AboutController;
 use  App\Http\Controllers\WargaController;
+use  App\Http\Controllers\AuthController;
 
 /*
 |--------------------------------------------------------------------------
