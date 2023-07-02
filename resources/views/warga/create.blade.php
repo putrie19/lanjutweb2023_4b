@@ -43,6 +43,7 @@
                     <input class="btn btn-info" type="submit" name="submit" value="Save">
                 </div>
                 <div class="container">
+                <a class="btn btn-dark" href="/warga">Back</a>
                 </div>
             </div>
         </form>
